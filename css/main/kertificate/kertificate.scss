@@ -1,0 +1,140 @@
+.kertificate{
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+
+    &__content{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+
+
+        &-div{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            border-radius: 25px;
+            background: #e2e2e2;
+            height: 500px;
+
+            @media (max-width: 840px) {
+                
+                width: 100%;
+
+            }
+
+            @media (max-width: 805px) {
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 800px;
+             
+
+            }
+         
+
+
+            &-1{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin: 20px;
+                text-align: center;
+
+           
+                
+
+
+                &-h1{
+
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 50px;
+                    color: #EE1B24;
+
+                    @media (max-width: 370px) {
+                
+                   font-size: 30px;
+                     
+        
+                    }
+
+            
+
+                }
+
+                &-p{
+
+                    font-family: 'Montserrat';
+                    font-weight: 600;
+                    color: #505050;
+
+                }
+                &-btns{
+
+                    &-btn{
+
+                        font-family: 'Montserrat';
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        background: #65018B;
+                        width: 210px;
+                        height: 45px;
+                        cursor: pointer;
+                        border-radius: 15px;
+
+               
+
+                    }
+
+                    &-btn:hover{
+
+                        background: rgb(155, 151, 151);
+                        border-radius: 15px;
+                        color: #3331A2;
+                        transition: .2s linear;
+
+                    }
+
+
+                }
+
+            }
+
+            &-2{
+
+                >img{
+                    width: 100%;
+                    padding: 20px;
+
+                    @media (max-width: 805px) {
+                
+                        display: block;
+                        margin-top: -45px;
+                      
+                     
+        
+                    }
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
